@@ -1,0 +1,17 @@
+{
+    "name": "nsu-dp-container",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "haskell.manageHLS": "GHCup"
+            },
+            "extensions": [
+                "haskell.haskell"
+            ]
+        }
+    },
+    "remoteUser": "vscode"
+}
